@@ -52,7 +52,7 @@ O **Sistema de Gerenciamento e Agendamento de Espaços Esportivos (SIGAE)** é u
 
 O **Sistema de Gerenciamento e Agendamento de Espaços Esportivos (SIGAE)** apresenta várias oportunidades de negócios, tais como:
 
-1. **Agendamento da quadra feito pelo represetante**: ...
+1. **Agendamento da quadra feito pelo representante**: ...
 2. **Reservar as aulas de educação fisica para o E.M**:...
 3. **Vizualizar horários e espaços disponíveis**:...
 
@@ -61,3 +61,37 @@ O **Sistema de Gerenciamento e Agendamento de Espaços Esportivos (SIGAE)** apre
 | Benefícios                    | Problemas Resolvidos                                                    | Afetados                                   |
 | ----------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ |
 | Automação e Otimização do Tempo | ... | ... |
+| Comunicação Eficiente e Clara| Falta de notificações automáticas sobre o status dos agendamentos (pendente, aprovado, negado)|Solicitantes (Representantes de curso, servidores)|
+
+
+
+---
+
+
+### Alunas Responsáveis pelo projeto 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/clarabalcantara">
+        <img src="https://github.com/clarabalcantara.png" width="120" height="120" style="border-radius: 50%; border: 3px solid #4CAF50;"/>
+      </a>
+      <br>
+      <strong><a href="https://github.com/oiclai" style="text-decoration: none; color: #4CAF50;">Clara Alcantara</a></strong>
+    </td>
+    <td align="center">
+      <a href="https://github.com/euclaraalmeida">
+        <img src="https://github.com/euclaraalmeida.png" width="120" height="120" style="border-radius: 50%; border: 3px solid #4CAF50;"/>
+      </a>
+      <br>
+      <strong><a href="https://github.com/euclaraalmeida" style="text-decoration: none; color: #4CAF50;">Maria Clara Almeida</a></strong>
+    </td>
+    <td align="center">
+      <a href="https://github.com/marisarinho">
+        <img src="https://github.com/marisarinho.png" width="120" height="120" style="border-radius: 50%; border: 3px solid #4CAF50;"/>
+      </a>
+      <br>
+      <strong><a href="https://github.com/marisarinho" style="text-decoration: none; color: #4CAF50;">Mariana Sarinho</a></strong>
+    </td>
+  </tr>
+</table>
+
