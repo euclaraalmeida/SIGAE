@@ -33,10 +33,10 @@ Os detalhes de como o **Sistema de Gerenciamento e Agendamento de Espaços Espor
 
 |    Termo    | Definição                                                                                                                       |
 | :---------: | ------------------------------------------------------------------------------------------------------------------------------- |
-|   Diretório Central dos Estudantes      | ...                                                  |
-|  Coordenação de Educação Física  | ...                                                             |
-| Representante  | ...                                                             |
-| Alunos  | ...                                                             |
+|   Diretório Central dos Estudantes | Setor que faz a intermediação da CEF para os estudantes|
+|  Coordenação de Educação Física  | Setor responsável pela gestão pedagógica e das atividades que utlizam  |
+| Representante  |Apenas um estudante que representa o curso |
+| Alunos  | Estudante do IFPB  |
 
 
 
