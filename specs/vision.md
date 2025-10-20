@@ -76,7 +76,6 @@ O **Sistema de Gerenciamento e Agendamento de Espaços Esportivos (SIGAE)** é u
 
 
 # Descrição dos stakeholders e dos usuários
-Esta seção descreve os stakeholders e os usuários do Sistema de Controle de Garantias de Produtos (SCGP).
 
 ## Stakeholders
 Segue abaixo a lista de stakeholders.
