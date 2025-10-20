@@ -130,20 +130,19 @@ Segue tabela com os usuários e atores do sistema:
 
 ### Visão geral
 
-O sistema SIGAE (Sistema de Gerenciamento e Agendamento de Espaços Esportivos) é um sistema web (aplicação web) focado na gestão dos espaços esportivos do IFPB Campus JP. O seu principal objetivo é substituir o método informal e descentralizado de agendamento (atualmente feito via WhatsApp) por uma plataforma centralizada, transparente e automatizada. O sistema permite que os usuários façam a solicitação, aprovação e consulta de horários de uso das quadras e outros espaços.
+O sistema SIGAE-Sistema de Gerenciamento e Agendamento de Espaços Esportivos é um sistema web (aplicação web) focado na gestão dos espaços esportivos do IFPB Campus JP. O seu principal objetivo é substituir o método informal e descentralizado de agendamento (atualmente feito pelo WhatsApp) por uma plataforma centralizada e automatizada. O sistema permite que os usuários façam a solicitação, aprovação e consulta de horários de uso das quadras e outros espaços.
 
-Como o SIGAE é um software, a estrutura operacional é baseada em infraestrutura de TI. Portanto, a infraestrutura necessária para operar o sistema SIGAE inclui servidores, banco de dados e dispositivos de rede, que podem ser gerenciados pela DTI (Diretoria de Tecnologia da Informação) do campus.
+Como o SIGAE é um software, a estrutura operacional é baseada em infraestrutura de TI. Sendo assim, a infraestrutura necessária para operar o sistema SIGAE inclui servidores, banco de dados e dispositivos de rede, que podem ser gerenciados pela DTI-Diretoria de Tecnologia da Informação do campus.
 
-O sistema SIGAE será acessado por meio de dispositivos que possuam um navegador web e acesso à Internet, como computadores e dispositivos móveis (smartphones e tablets). Isso permite que os diferentes perfis de usuários (Solicitantes, Moderadores e Visualizadores) acessem e controlem os agendamentos de qualquer lugar, sem a necessidade de instalação de um aplicativo.
+O sistema SIGAE será acessado por meio de dispositivos que possuam um navegador web e acesso à Internet, como computadores e dispositivos móveis. Isso permite que os diferentes perfis de usuários acessem e controlem os agendamentos de qualquer lugar, sem a necessidade de instalação de um aplicativo.
 
-A interação entre os dispositivos ocorre por meio de uma conexão de rede (Internet ou rede do campus). O servidor que hospeda o sistema SIGAE se comunica com os dispositivos dos clientes por meio de solicitações HTTP e respostas, permitindo que o sistema exiba informações (como o calendário de horários) e interaja com o usuário.
+A interação entre os dispositivos ocorre por meio de uma conexão de rede. O servidor que hospeda o sistema SIGAE se comunica com os dispositivos dos clientes por meio de solicitações HTTP e respostas, permitindo que o sistema exiba informações e interaja com o usuário.
 
 Além disso, o sistema SIGAE será fundamentalmente integrado com o SUAP. Essa integração ocorrerá por meio de APIs e será utilizada para a autenticação dos usuários e para a importação de dados que foram cadastrados. Em uma fase avançada, o próprio SIGAE poderá desenvolver uma API para que outros sistemas do IFPB possam consultar a disponibilidade dos espaços.
 
 ![Arquitetura do sistema SIGAE](../assets/sigae.jpg)
 
 ## Custo e venda
-## Orçamento e Custo Institucional
 
 ### Estimativa de Custo de Desenvolvimento (Projeto de Extensão/Pesquisa)
 
