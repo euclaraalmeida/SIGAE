@@ -146,7 +146,9 @@ Além disso, o sistema SIGAE será fundamentalmente integrado com o SUAP. Essa i
 ## Custo e venda
 ...
 ## Licenciamento e instalação
-...
+O produto SIGAE não será licenciado ou vendido, pois é um software de uso interno, desenvolvido pela equipe do projeto para o IFPB Campus João Pessoa. O sistema será de propriedade da instituição.
+Após a implantação, o sistema não exigirá instalação por parte dos usuários finais. O acesso será feito diretamente pelo navegador web através de um endereço oficial fornecido pela instituição. O acesso às funcionalidades restritas (solicitar, moderar) será liberado automaticamente com base na autenticação via SUAP, que identificará o perfil de cada usuário. O calendário público vai poder ser acessado por qualquer pessoa com o link.
+
 ## Características e funcionalidades de alto nível
 
 
@@ -164,9 +166,18 @@ Esta seção define e descreve as características do **SIGAE**. Trata-se dos re
 10. O sistema deve permitir que **Gestores** visualizem um **dashboard com estatísticas** de uso dos espaços.
 
 ## Restrições
-...
 
+## Restrições
 
+Algumas restrições que se aplicam ao sistema SIGAE são:
+
+1.  **Restrição de Tempo:** O sistema deve ser desenvolvido e entregue no prazo estipulado no projeto.
+2.  **Restrições de Infraestrutura e Plataforma:** O sistema deve ser desenvolvido como uma aplicação web responsiva, capaz de funcionar em computadores e celulares. Ele será hospedado na infraestrutura de servidores do IFPB, gerenciada pela DTI.
+3.  **Restrições de Segurança e Privacidade:** O sistema deve atender aos requisitos de segurança, como proteção contra acesso não autorizado, e à privacidade de dados, porque irá manipular informações pessoais dos usuários (nome, matrícula, curso) vindas do SUAP.
+4.  **Restrições de Usabilidade:** O sistema deve ser fácil de usar e intuitivo, porque os usuários (Moderadores e Solicitantes) possuem conhecimento técnico básico de informática.
+5.  **Restrições de Interoperabilidade:** A implementação dos requisitos Autenticação e Dados do Usuário depende inteiramente da existência e disponibilidade de uma API do SUAP.
+6.  **Restrições de Desempenho:** O sistema deve atender aos requisitos de desempenho e disponibilidade. O carregamento do calendário deve ser rápido, visto que a demanda pelos espaços é "super lotada".
+7.  **Restrições Geográficas e de Idioma:** O sistema é de uso exclusivo do "IFPB Campus JP". Portanto, deve ser compatível apenas com o fuso horário local e desenvolvido inteiramente no idioma português.
 
 
 ### Alunas Responsáveis pelo projeto 
