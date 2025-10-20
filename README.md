@@ -167,8 +167,6 @@ Esta seção define e descreve as características do **SIGAE**. Trata-se dos re
 
 ## Restrições
 
-## Restrições
-
 Algumas restrições que se aplicam ao sistema SIGAE são:
 
 1.  **Restrição de Tempo:** O sistema deve ser desenvolvido e entregue no prazo estipulado no projeto.
