@@ -43,7 +43,7 @@ Os detalhes de como o **Sistema de Gerenciamento e Agendamento de Espaços Espor
 
 O **Sistema de Gerenciamento e Agendamento de Espaços Esportivos (SIGAE)** é um sistema que tem como objetivo substituir o método informal e descentralizado (WhatsApp) por uma plataforma centralizada, transparente e automatizada para solicitação, aprovação e consulta de horários de uso das quadras e outros espaços esportivos do campus, utilizando o SUAP como base para autenticação e identificação dos usuários.
 
----
+
 
 # Posicionamento
 
@@ -67,7 +67,7 @@ O **Sistema de Gerenciamento e Agendamento de Espaços Esportivos (SIGAE)** é u
 | **Responsabilização e Auditoria** | Falta de registro formal de qual indivíduo utilizou o espaço. A responsabilidade por danos recai inteiramente sobre o DCE, que assina termos físicos. | Gestores (DCE, CEF) e Solicitantes |
 | **Acesso Justo (Democratização)** | A regra atual de "quem pediu primeiro" no WhatsApp não garante a hierarquia oficial de prioridades (Aulas > Projetos > Alunos), limitando a "democratização" do espaço. | Solicitantes (Representantes de curso) e Gestores/Moderadores (CEF) |
 
----
+
 # Descrição dos stakeholders e dos usuários
 Esta seção descreve os stakeholders e os usuários do Sistema de Controle de Garantias de Produtos (SCGP).
 
@@ -92,7 +92,7 @@ Segue tabela com os usuários e atores do sistema:
 | **Moderador / Administrador** | Membros do **DCE** e da **CEF** responsáveis pela operação diária e gestão das solicitações no sistema. | • Gerenciar o painel de solicitações pendentes.<br>• Aprovar ou negar solicitações.<br>• Criar agendamentos recorrentes (ex: aulas).<br>• Bloquear horários para manutenção ou eventos.<br>• Configurar regras de agendamento. | DCE, CEF, Gestores, Equipe de Desenvolvimento |
 | **Visualizador** | **Qualquer membro da comunidade acadêmica** (alunos e servidores) que precise consultar a agenda. | • Acessar o sistema para visualizar o calendário público de espaços.<br>• Consultar a disponibilidade (horários livres/ocupados). | Comunidade Acadêmica, DCE, CEF, Equipe de Desenvolvimento |
 | **Gestor** | **Diretores ou coordenadores** que não operam o sistema no dia a dia, mas consomem dados gerenciais. | • Acessar um painel (dashboard) com gráficos e estatísticas de uso (ex: taxa de ocupação, horários de pico).<br>• Gerar relatórios de uso dos espaços. | Gestores, DCE, CEF, Equipe de Desenvolvimento |
----
+
 
 # Descrição do ambiente de uso
 ## Ambiente de uso
@@ -117,12 +117,57 @@ Segue tabela com os usuários e atores do sistema:
 | Necessidade | Prioridade | Interesse | Solução Atual | Soluções Propostas |
 | :--- | :--- | :--- | :--- | :--- |
 | **Qualidade:** O sistema deve ser confiável, livre de erros e falhas, garantindo que os agendamentos sejam registrados corretamente sem duplicidade. | **Alta** | A comunidade espera que o sistema seja justo e confiável. Uma falha pode gerar conflitos de horário, como ocorre hoje. | O controle é manual (WhatsApp/Google Agenda) e pode ter erros humanos, desorganização e falhas de comunicação. | Implementar testes automatizados (unitários, integração) e um processo de QA. Realizar Testes de Aceitação do Usuário com o DCE e a CEF. |
-| **Desempenho:** O sistema deve ter um tempo de resposta rápido, especialmente na visualização do calendário. | **Alta** | Sendo um recurso de "alta demanda" ("super lotada"), o sistema precisa ser rápido para muitos usuários consultando horários simultaneamente. | O WhatsApp é instantâneo, mas caótico. O Google Agenda é lento para atualizar e consultar. | Otimização de consultas ao banco de dados (especialmente para o calendário), uso de cache para o calendário público e otimizações de front-end. |
+| **Desempenho:** O sistema deve ter um tempo de resposta rápido, especialmente na visualização do calendário. | **Alta** | Sendo um recurso de "alta demanda" ("super lotada"), o sistema precisa ser rápido para muitos usuários consultando horários simultaneamente. | O WhatsApp é instantâneo, mas caótico. O Google Agenda é lento para atualizar e consultar. | Otimização de consultas ao banco de dados principalmente para o calendário.|
 | **Escalabilidade:** O sistema deve suportar picos de acesso (ex: início de semestre, abertura de agenda) sem lentidão. | **Moderada** | A base de usuários é o campus), mas os picos de acesso simultâneo podem ser altos. | (O sistema atual não é escalável e gera sobrecarga de trabalho manual nos moderadores). | Arquitetura de aplicação e banco de dados otimizada para consultas, hospedada em infraestrutura robusta. |
 | **Segurança:** O sistema deve garantir que apenas usuários autorizados possam pedir horários e que apenas Moderadores possam aprovar/negar. | **Alta** | A segurança garante a legitimidade dos pedidos e a integridade do calendário. | Inexistente. O controle de acesso no WhatsApp é frágil e a edição do Google Agenda é centralizada em uma pessoa. | Integração com SUAP para autenticação. Implementar Controle de Acesso para os diferentes perfis (Solicitante, Moderador, Gestor). |
 | **Usabilidade:** O sistema deve ser fácil de usar e intuitivo, tanto para solicitar quanto para gerenciar horários. | **Alta** | O sistema precisa ser mais fácil de usar do que o processo atual (WhatsApp) para garantir a adoção pelos usuários. | O WhatsApp é "fácil" de enviar mensagem, mas "difícil" de gerenciar. O Google Agenda não é intuitivo para esse fim. | Prototipação e realização de testes de usabilidade com alunos, DCE e CEF.|
 | **Tempo de resposta:** O sistema deve atualizar o calendário (ex: de "livre" para "ocupado") imediatamente após uma aprovação. | **Alta** | A informação precisa ser em tempo real para evitar que dois usuários tentem agendar o mesmo horário vago. | Lento. O processo manual de atualizar o Google Agenda após um pedido no WhatsApp não é em tempo real. | Otimizações de performance  e uso de tecnologias que permitam atualização em tempo real se necessário. |
 | **Confidencialidade:** O sistema deve proteger os dados pessoais (nome, matrícula) dos usuários e o histórico de agendamentos. | **Moderada** | Os dados (nome, matrícula) vêm do SUAP e devem ser protegidos. O histórico de uso deve ser acessível apenas por gestores/moderadores. | Insegura. Grupos de WhatsApp expõem números de telefone e informações de todos os membros. | Armazenar o mínimo de dados necessários do SUAP. Garantir que apenas usuários autorizados possam ver os registros. |
+
+
+
+## Visão geral do produto
+
+### Visão geral
+
+O sistema SIGAE (Sistema de Gerenciamento e Agendamento de Espaços Esportivos) é um sistema web (aplicação web) focado na gestão dos espaços esportivos do IFPB Campus JP. O seu principal objetivo é substituir o método informal e descentralizado de agendamento (atualmente feito via WhatsApp) por uma plataforma centralizada, transparente e automatizada. O sistema permite que os usuários façam a solicitação, aprovação e consulta de horários de uso das quadras e outros espaços.
+
+Como o SIGAE é um software, a estrutura operacional é baseada em infraestrutura de TI. Portanto, a infraestrutura necessária para operar o sistema SIGAE inclui servidores, banco de dados e dispositivos de rede, que podem ser gerenciados pela DTI (Diretoria de Tecnologia da Informação) do campus.
+
+O sistema SIGAE será acessado por meio de dispositivos que possuam um navegador web e acesso à Internet, como computadores e dispositivos móveis (smartphones e tablets). Isso permite que os diferentes perfis de usuários (Solicitantes, Moderadores e Visualizadores) acessem e controlem os agendamentos de qualquer lugar, sem a necessidade de instalação de um aplicativo.
+
+A interação entre os dispositivos ocorre por meio de uma conexão de rede (Internet ou rede do campus). O servidor que hospeda o sistema SIGAE se comunica com os dispositivos dos clientes por meio de solicitações HTTP e respostas, permitindo que o sistema exiba informações (como o calendário de horários) e interaja com o usuário.
+
+Além disso, o sistema SIGAE será fundamentalmente integrado com o SUAP. Essa integração ocorrerá por meio de APIs e será utilizada para a autenticação dos usuários e para a importação de dados que foram cadastrados. Em uma fase avançada, o próprio SIGAE poderá desenvolver uma API para que outros sistemas do IFPB possam consultar a disponibilidade dos espaços.
+
+**figura**
+
+
+## Custo e venda
+...
+## Licenciamento e instalação
+...
+## Características e funcionalidades de alto nível
+
+
+Esta seção define e descreve as características do **SIGAE**. Trata-se dos requisitos de alto nível do sistema que são necessários para propiciar benefícios aos usuários.
+
+1. O sistema deve permitir a **autenticação de usuários (Solicitantes, Moderadores) via SUAP** e o gerenciamento (cadastro/edição) dos espaços esportivos disponíveis.
+2. O sistema deve permitir que **Solicitantes** (ex: Representantes de Curso) submetam solicitações de agendamento  para os horários disponíveis.
+3. O sistema deve exibir um **calendário público** e de fácil visualização, mostrando os horários livres e ocupados de cada espaço.
+4. O sistema deve possuir um **painel de solicitação**  onde os Moderadores (DCE, CEF) possam aprovar ou negar as solicitações de agendamento pendentes.
+5. O sistema deve **enviar notificações automáticas** (RF09), preferencialmente por e-mail, aos Solicitantes informando o status de seus pedidos (aprovado, negado).
+6. O sistema deve **garantir a segurança** das informações e o controle de acesso baseado em perfis (Visualizador, Solicitante, Moderador, Gestor).
+7. O sistema deve ter uma **interface de usuário amigável** e de fácil utilização, que seja mais eficiente que o processo atual via WhatsApp.
+8. O sistema deve ter um **desempenho satisfatório**, com tempos de resposta rápidos, especialmente no carregamento do calendário, visto que a demanda pelos espaços é "super lotada".
+9. O sistema deve possuir um **módulo de registro**  que registre todas as ações (quem pediu, quem aprovou) para fins de responsabilização e geração de histórico.
+10. O sistema deve permitir que **Gestores** visualizem um **dashboard com estatísticas** de uso dos espaços.
+
+## Restrições
+...
+
+
+
 
 ### Alunas Responsáveis pelo projeto 
 <table>
