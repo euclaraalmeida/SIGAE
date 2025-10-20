@@ -144,7 +144,37 @@ Além disso, o sistema SIGAE será fundamentalmente integrado com o SUAP. Essa i
 
 
 ## Custo e venda
-...
+## Orçamento e Custo Institucional
+
+### Estimativa de Custo de Desenvolvimento (Projeto de Extensão/Pesquisa)
+
+Uma estimativa dos custos institucionais no desenvolvimento do SIGAE. Esta estimativa é baseada no cenário de que a equipe de desenvolvimento é composta por bolsistas do próprio IFPB, com o projeto tendo uma duração  de 6 meses.
+
+O "custo" do projeto não é um salário de mercado, mas sim o valor do fomento (bolsas) pago pela instituição.
+
+**Alocação de Recursos (Custo de Fomento)**
+
+* **Professor Coordenador/Orientador (1):** Alocação de horas de trabalho, sem custo de bolsa.
+* **Desenvolvedor Bolsista - Front-end (1):** Custo de fomento estimado em R$ 700,00/mês. (Total 6 meses: R$ 4.200,00)
+* **Desenvolvedor Bolsista - Back-end (1):** Custo de fomento estimado em R$ 700,00/mês. (Total 6 meses: R$ 4.200,00)
+* **Designer UI/UX Bolsista - Parcial (1):** Custo de fomento estimado em R$ 700,00/mês. (Total 6 meses: R$ 4.200,00)
+
+**Custo Total de Fomento (Orçamento): R$ 12.600,00**
+
+**Infraestrutura e Ferramentas (Custo Operacional)**
+
+* **Servidores de Hospedagem e Banco de Dados:** Serão utilizados os servidores da própria instituição, gerenciados pela DTI/IFPB. Portanto, são considerados custos internos já absorvidos pela instituição (Custo zero para o projeto).
+* **Ferramentas de Gestão:** Serão utilizadas ferramentas gratuitas sem custo adicional.
+
+**Custo Total de Infraestrutura: R$ 0,00**
+
+### Sustentabilidade e "Venda" (Implantação Interna)
+
+Como o SIGAE é um software desenvolvido por bolsistas para a própria instituição, não existe "venda" ou "planos de precificação".
+* **Modelo de Uso:** O sistema será **100% gratuito** para todos os usuários da comunidade acadêmica (DCE, CEF, Alunos, Servidores).
+* **Propriedade:** O código-fonte e o sistema são de propriedade do IFPB.
+* **Sustentabilidade (Manutenção):** A manutenção pós-projeto será de responsabilidade da instituição. A **DTI do IFPB** manterá os servidores no ar, enquanto a **equipe de desenvolvimento** (ou futuros bolsistas/servidores designados) ficará responsável por correções de bugs e melhorias futuras.
+  
 ## Licenciamento e instalação
 O produto SIGAE não será licenciado ou vendido, pois é um software de uso interno, desenvolvido pela equipe do projeto para o IFPB Campus João Pessoa. O sistema será de propriedade da instituição.
 Após a implantação, o sistema não exigirá instalação por parte dos usuários finais. O acesso será feito diretamente pelo navegador web através de um endereço oficial fornecido pela instituição. O acesso às funcionalidades restritas (solicitar, moderar) será liberado automaticamente com base na autenticação via SUAP, que identificará o perfil de cada usuário. O calendário público vai poder ser acessado por qualquer pessoa com o link.
