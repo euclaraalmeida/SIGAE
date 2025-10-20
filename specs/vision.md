@@ -140,8 +140,7 @@ A interação entre os dispositivos ocorre por meio de uma conexão de rede (Int
 
 Além disso, o sistema SIGAE será fundamentalmente integrado com o SUAP. Essa integração ocorrerá por meio de APIs e será utilizada para a autenticação dos usuários e para a importação de dados que foram cadastrados. Em uma fase avançada, o próprio SIGAE poderá desenvolver uma API para que outros sistemas do IFPB possam consultar a disponibilidade dos espaços.
 
-**figura**
-
+![Arquitetura do sistema SIGAE](../assets/sigae.jpg)
 
 ## Custo e venda
 ## Orçamento e Custo Institucional
