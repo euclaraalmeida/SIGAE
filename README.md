@@ -1,4 +1,3 @@
-# Visão do Produto
 ## SIGAE - Sistema de Gerenciamento e Agendamento de Espaços Esportivos 🏐
 
 ## Propósito
