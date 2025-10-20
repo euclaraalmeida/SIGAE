@@ -1,4 +1,4 @@
-## Requisitos funcionais
+# Requisitos funcionais
 
 Os requisitos funcionais são descritos a seguir.
 
@@ -48,17 +48,17 @@ Os requisitos funcionais são descritos a seguir.
 
 <br>
 
-## Requisitos não-funcionais
+# Requisitos não-funcionais
 
 Os requisitos não-funcionais são descritos a seguir.
 
-### Disponibilidade
+## Disponibilidade
 
 - [RNF001] - O sistema deve estar disponível para consulta e solicitação de agendamentos 24 horas por dia, 7 dias por semana, 365 dias por ano.
 
 - [RNF002] - O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de processamento de requisições sem que haja perda de desempenho em períodos de alta demanda (como inícios de semestre).
 
-### Privacidade e segurança
+## Privacidade e segurança
 
 - [RNF003] - O sistema deve ser desenvolvido de forma que os dados dos usuários (alunos e administradores) sejam protegidos e não sejam acessíveis por terceiros não autorizados.
 
@@ -70,7 +70,7 @@ Os requisitos não-funcionais são descritos a seguir.
 
 - [RNF007] - Toda a comunicação entre o cliente (navegador) e o servidor deve ser feita utilizando criptografia de conexão (HTTPS/SSL).
 
-### Usabilidade
+## Usabilidade
 
 - [RNF008] - O sistema deve ser desenvolvido de forma que seja fácil de usar e de fácil aprendizado, de forma que os usuários não precisem de treinamento extensivo para utilizá-lo.
 
@@ -78,17 +78,17 @@ Os requisitos não-funcionais são descritos a seguir.
 
 - [RNF010] - O sistema deve ser desenvolvido de forma que possa ser acessado por pessoas com deficiência, seguindo padrões básicos de acessibilidade web.
 
-### Suportabilidade (Compatibilidade)
+## Suportabilidade (Compatibilidade)
 
 - [RNF011] - O sistema deve ser desenvolvido de forma que possa ser executado nos três principais navegadores da web: Google Chrome, Mozilla Firefox e Microsoft Edge.
 
 - [RNF012] - O sistema deve ser compatível com os sistemas operacionais mais comuns para computadores e notebooks: Windows e Linux.
 
-### Interoperabilidade
+## Interoperabilidade
 
 - [RNF013] - O sistema deve ser desenvolvido de forma que possa ser integrado com o sistema de autenticação central do IFPB (ex: SUAP) para validar o login de Alunos e Administradores.
 
-### Manutenibilidade
+## Manutenibilidade
 
 - [RNF014] - O sistema deve ser desenvolvido de forma que possa ser facilmente atualizado e mantido.
 
@@ -96,7 +96,7 @@ Os requisitos não-funcionais são descritos a seguir.
 
 - [RNF016] - O sistema deve ser documentado (código-fonte, APIs e arquitetura) de forma que possa ser facilmente compreendido por terceiros e para facilitar a manutenção.
 
-### Desempenho
+## Desempenho
 
 - [RNF017] - O sistema deve ter um tempo de resposta de no máximo 5 segundos para carregar o calendário de horários e submeter uma solicitação de agendamento.
 
@@ -104,10 +104,11 @@ Os requisitos não-funcionais são descritos a seguir.
 
 - [RNF019] - A interface deve ser simples, sem gráficos pesados, e compatível com resoluções comuns de tela.
 
-### Implementação
+## Implementação
 
 - [RNF020] - O sistema deve ser desenvolvido com APIs de acesso aos dados para que o front-end seja desacoplado do back-end.
 
-### Implantação
+## Implantação
 
 - [RNF021] - O sistema deve ser desenvolvido de forma que possa ser implantado em plataformas de servidor padrão (Linux, com hardware x64).
+
