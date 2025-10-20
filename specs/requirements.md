@@ -112,3 +112,33 @@ Os requisitos não-funcionais são descritos a seguir.
 
 - [RNF021] - O sistema deve ser desenvolvido de forma que possa ser implantado em plataformas de servidor padrão (Linux, com hardware x64).
 
+## Matriz de rastreabilidade
+
+A matriz de rastreabilidade é apresentada a seguir.
+
+### Rastreabilidade entre RFs e RNFs
+
+| RF / RNF | RF001 | RF002 | RF003 | RF004 | RF005 | RF006 | RF007 | RF008 | RF009 | RF010 | RF011 | RF012 | RF013 | RF014 | RF015 | RF016 | RF017 | RF018 | RF019 | RF020 | RF021 | RF022 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| *RNF001* (Disponib.) | X | | | | | | | X | | | | X | | | X | | | | | | | |
+| *RNF002* (Escalab.) | X | | | | | | | X | | | | X | | | X | | | | | | | |
+| *RNF003* (Proteção Dados) | | | | | | | | | X | | X | | X | | | X | | X | | | | |
+| *RNF004* (LGPD) | | | | | | | | | X | | X | | X | | | X | | X | | | | |
+| *RNF005* (Permissões) | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| *RNF006* (Hashing Senha) | | | | | | | | | | | | | | | | X | | X | | | | |
+| *RNF007* (HTTPS) | | | | | | | | X | X | | | X | X | | X | X | X | X | | | | |
+| *RNF008* (Usabilidade) | X | | | | | | | X | | | | X | | | X | X | | | X | X | | |
+| *RNF009* (Design HIFPB) | X | | | | | | | X | | | | X | | | X | X | | | X | X | | |
+| *RNF010* (Acessib.) | X | | | | | | | X | | | | X | | | X | X | | | X | X | | |
+| *RNF011* (Compat. Naveg.) | X | | | | | | | X | | | | X | | | X | X | X | | X | X | | |
+| *RNF012* (Compat. SO) | X | | | | | | | X | | | | X | | | X | X | X | | X | X | | |
+| *RNF013* (Integ. SUAP) | | | | | | | | | | | | | | | | X | | | | | | |
+| *RNF014* (Manuten.) | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| *RNF015* (Testável) | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| *RNF016* (Document.) | | | | | | | | | | | | | | | | | | | | | | |
+| *RNF017* (Desemp. < 5s) | X | | | | | | | X | | | | | | | | | | | | | X | X |
+| *RNF018* (Desemp. Low-spec) | X | | | | | | | X | | | | X | | | X | X | | | X | X | | |
+| *RNF019* (Interface Leve) | X | | | | | | | X | | | | X | | | X | X | | | X | X | | |
+| *RNF020* (API) | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| *RNF021* (Implantação) | | | | | | | | | | | | | | | | | | | | | | |
+
