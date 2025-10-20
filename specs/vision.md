@@ -7,6 +7,11 @@ Versão 1
 | Data       | Versão | Descrição                      | Autor             |
 |------------|--------|--------------------------------|-------------------|
 | 14/10/2025 | 1.0    | Criação do documento           | Clara Almeida     |
+| 15/10/2025 | 1.0    | Edição do documento           | Clara Almeida     |
+| 19/10/2025 | 1.0    |Criação do requirements           | Mariana Sarinho    |
+| 19/10/2025 | 1.0    | Edição do documento      | Clara Alcantara  |
+
+
 
 
 # Introdução
