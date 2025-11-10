@@ -245,3 +245,18 @@ A interface principal do calendário (Home Page) é o ponto central para a consu
 * **Navegação e Filtros:** Controles para navegar entre as semanas (ex: "< Novembro >") e um seletor para filtrar pelo espaço esportivo desejado (ex: "Quadra 1").
 * **Painel de Acesso:** Menu lateral que identifica o perfil do usuário (ex: "Usuário Visitante") e apresenta as ações de "Login com SUAP" e "Entrar para ver seus agendamentos".
 * **Botões de Ação:** Botão principal de "Entrar para Agendar" posicionado de forma clara para guiar o usuário ao fluxo de solicitação.
+* 
+### Após o login
+Após o usuário realizar o login via SUAP, o sistema apresenta a **Home Page** principal do usuário autenticado. O wireframe abaixo exemplifica a tela principal para o perfil **'Solicitante' (Aluno)** (ex: "Maria Clara"), conforme requisitos como **[RF001]** (Login), **[RF004]** (Logout), **[RF005]** (Visualizar calendário) e **[RF007]** (ação "Faça um Novo Agendamento").
+### (imagem aqui )
+
+**Figura 2 - Wireframe da Home Page do usuário logado (Perfil 'Solicitante')**
+
+**Elementos principais:**
+
+* **Menu de Navegação Lateral:** Painel principal do usuário logado, com links para "Dashboard", "Meus Agendamentos", "Todos os Espaços" e "Dúvidas & Respostas Frequentes".
+* **Calendário de Ocupação:** Grade visual central exibindo os horários da semana e os blocos já reservados (ex: aulas de professores e outros agendamentos).
+* **Controles do Calendário:** Filtro para selecionar o espaço (ex: "Quadra 1") e setas de navegação do mês (ex: "< Novembro >").
+* **Gestão de Perfil:** Informação do usuário logado ("Enrou como Maria Clara") e botão de "LogOut".
+* **Ações Disponíveis:** Botão principal de "call-to-action" para o fluxo de solicitação ("Faça um Novo Agendamento").
+* **Indicadores Visuais:** Uso de cores diferentes (verde e laranja) para diferenciar os tipos de agendamento no calendário.
