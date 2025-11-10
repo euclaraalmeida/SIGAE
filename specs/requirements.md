@@ -225,5 +225,21 @@ Os requisitos não-funcionais são descritos a seguir.
 - [RNF021] - O sistema deve ser desenvolvido de forma que possa ser implantado em plataformas de servidor padrão (Linux, com hardware x64).
 
 
-*****
+### Wireframes do SIGAE
 
+Esta seção apresenta os wireframes desenvolvidos para as principais interfaces do **Sistema de Gerenciamento e Agendamento de Espaços Esportivos (SIGAE)**, demonstrando a estrutura visual e o fluxo de interação das funcionalidades de **consulta de calendário e solicitação de agendamento**.
+
+### Interface do Calendário (Home Page)
+
+A interface principal do calendário (Home Page) é o ponto central para a consulta de horários. A tela foi projetada para facilitar a visualização da disponibilidade pelo usuário (seja um **Visualizador** público ou um **Solicitante/Aluno** logado). A interface foi projetada considerando os requisitos funcionais **[RF005]** (visualizar horários disponíveis) e **[RF006]** (visualização pública sem autenticação).
+
+### (imagem aqui)
+
+**Figura 1 - Wireframe da Tela Principal (Home Page / Visão Geral dos Espaços)**
+
+**Elementos principais:**
+
+* **Calendário de Agendamentos:** Exibição da grade de horários em visualização semanal (Segunda a Sexta, 07:00 às 22:00), mostrando os blocos de horários já ocupados.
+* **Navegação e Filtros:** Controles para navegar entre as semanas (ex: "< Novembro >") e um seletor para filtrar pelo espaço esportivo desejado (ex: "Quadra 1").
+* **Painel de Acesso:** Menu lateral que identifica o perfil do usuário (ex: "Usuário Visitante") e apresenta as ações de "Login com SUAP" e "Entrar para ver seus agendamentos".
+* **Botões de Ação:** Botão principal de "Entrar para Agendar" posicionado de forma clara para guiar o usuário ao fluxo de solicitação.
