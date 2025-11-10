@@ -111,7 +111,7 @@ Segue tabela com os usuários e atores do sistema:
   
 ### 2. Ambiente de Moderação (Restrito):
 5.  **Moderador/Gestor o DCE** utiliza o sistema para aprovar/negar solicitações de cancelamento e alteração
-6. ** Moderador/Gestor a CEF** gerencia o calendário e bloqueia horários (ex: aulas).
+6. **Moderador/Gestor a CEF** gerencia o calendário e bloqueia horários (ex: aulas).
 7.  Este ambiente é acessado preferencialmente via navegador web em um computador, devido à natureza das tarefas de gerenciamento.
    
 ### 3. Ambiente de Teste:
