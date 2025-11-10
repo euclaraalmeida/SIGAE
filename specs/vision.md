@@ -56,9 +56,9 @@ O **Sistema de Gerenciamento e Agendamento de Espaços Esportivos (SIGAE)** é u
 
 ## Oportunidade de negócios
 
-1.**Centralizar e formalizar os agendamentos do esporte **Substituir o caos do grupo de WhatsApp e o trabalho manual por um sistema oficial, organizado e justo.
+1.Centralizar e formalizar os agendamentos do esporte. Substituir o caos do grupo de WhatsApp e o trabalho manual por um sistema oficial, organizado e justo.
 
-2. **Garantir a Disponibilidade Real**: Mostrar no calendário apenas os horários que estão realmente livres, já descontando as aulas e atividades prioritárias.
+2.**Garantir a Disponibilidade Real**: Mostrar no calendário apenas os horários que estão realmente livres, já descontando as aulas e atividades prioritárias.
 
 3.**Vizualização**: Criar um calendário público onde qualquer aluno possa consultar o que está livre ou ocupado em tempo real, acabando com a confusão de informações.
 
