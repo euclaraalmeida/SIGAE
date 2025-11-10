@@ -248,8 +248,8 @@ A interface principal do calendário (Home Page) é o ponto central para a consu
 * 
 ### Após o login
 Após o usuário realizar o login via SUAP, o sistema apresenta a **Home Page** principal do usuário autenticado. O wireframe abaixo exemplifica a tela principal para o perfil **'Solicitante' (Aluno)** (ex: "Maria Clara"), conforme requisitos como **[RF001]** (Login), **[RF004]** (Logout), **[RF005]** (Visualizar calendário) e **[RF007]** (ação "Faça um Novo Agendamento").
-### (imagem aqui )
 
+![Prototipo Home Page SIGAE após o login](../assets/sigaehplogin-pt.jpg)
 **Figura 2 - Wireframe da Home Page do usuário logado (Perfil 'Solicitante')**
 
 **Elementos principais:**
