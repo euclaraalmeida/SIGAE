@@ -94,7 +94,7 @@ Segue abaixo a lista de stakeholders.
 Segue tabela com os usuários e atores do sistema:
 | Usuário | Descrição | Responsabilidades | Stakeholders |
 | :--- | :--- | :--- | :--- |
-| **Solicitante** | **Alunos do IFPB | • Autenticar-se via SUAP.<br>• Consultar horários livres no calendário.<br>• Preencher e enviar formulário de solicitação.<br>• Acompanhar o status dos seus pedidos ("Aprovado", "Negado").<br>•| DCE, CEF e alunos |
+| **Solicitante** | Alunos do IFPB | • Autenticar-se via SUAP.<br>• Consultar horários livres no calendário.<br>• Preencher e enviar formulário de solicitação.<br>• Acompanhar o status dos seus pedidos ("Aprovado", "Negado").<br>•| DCE, CEF e alunos |
 | **Moderador e administrador** | A **CEF** é responsável pela operação diária e pela administração de todas as categorias de horários, possuindo permissão irrestrita para executar todas as ações de criação, leitura, atualização e exclusão (CRUD) |  <br>• Bloquear horários para manutenção ou eventos.<br>• Configurar regras de agendamento. | DCE, CEF |
 | **Visualizador** | *Qualquer pessoa*| • Acessar o sistema para visualizar o calendário público de espaços.<br>• Consultar a disponibilidade (horários livres/ocupados). | DCE, CEF e alunos |
 | **Moderador/Gestor** | **DCE** responsáveis pela operação diária e gestão das solicitações no sistema.  | • Gerenciar o painel de solicitações de cancelamentos e alteração.<br>•  | DCE, CEF|
