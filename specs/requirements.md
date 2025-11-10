@@ -8,9 +8,10 @@
 | Data | Versão | Descrição | Autor(es) |
 | :--- | :--- | :--- | :--- |
 | 10/11/2025 | 1.0 | Criação do documento (baseado no DVP) | Clara Alcantara, Maria Clara Almeida, Mariana Sarinho |
+## Sumário
 
 <br>
-## Sumário
+
 
 * [Capa](#requisitos-de-software)
     * [Histórico de revisões](#histórico-de-revisões)
