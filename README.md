@@ -18,7 +18,7 @@ Os detalhes de como o **Sistema de Gerenciamento e Agendamento de Espaços Espor
         <img src="https://github.com/clarabalcantara.png" width="120" height="120" style="border-radius: 50%; border: 3px solid #4CAF50;"/>
       </a>
       <br>
-      <strong><a href="https://github.com/oiclai" style="text-decoration: none; color: #4CAF50;">Clara Alcantara</a></strong>
+      <strong><a href="https://github.com/clarabalcantara" style="text-decoration: none; color: #4CAF50;">Clara Alcantara</a></strong>
     </td>
     <td align="center">
       <a href="https://github.com/euclaraalmeida">
