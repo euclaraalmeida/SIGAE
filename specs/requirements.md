@@ -233,7 +233,8 @@ Esta seção apresenta os wireframes desenvolvidos para as principais interfaces
 
 A interface principal do calendário (Home Page) é o ponto central para a consulta de horários. A tela foi projetada para facilitar a visualização da disponibilidade pelo usuário (seja um **Visualizador** público ou um **Solicitante/Aluno** logado). A interface foi projetada considerando os requisitos funcionais **[RF005]** (visualizar horários disponíveis) e **[RF006]** (visualização pública sem autenticação).
 
-### (imagem aqui)
+![Prototipo Home Page SIGAE](../assets/sigaehp-pt.jpg)
+
 
 **Figura 1 - Wireframe da Tela Principal (Home Page / Visão Geral dos Espaços)**
 
