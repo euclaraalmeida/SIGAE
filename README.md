@@ -1,4 +1,5 @@
 ## SIGAE - Sistema de Gerenciamento e Agendamento de Espaços Esportivos 🏐
+Projetos final da disciplina de análise de projetos de sistemas
 
 ## Propósito
 
