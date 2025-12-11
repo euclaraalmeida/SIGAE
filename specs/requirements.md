@@ -105,7 +105,7 @@ Os requisitos funcionais são descritos a seguir.
 
 - [RF003] - Como Administrador CEF, eu gostaria de poder gerenciar os perfis de usuário do sistema (ex: "Aluno", "DCE", "CEF") e definir quais permissões específicas cada perfil possui.
 
-- [RF004] - Como usuário, eu gostaria de poder realizar logout (sair) do sistema de forma segura, para encerrar minha sessão.
+- [RF004] - Como Administrador CEF, eu gostaria de manter usuário.
 
 ### Módulo de Calendário e Consulta
 
