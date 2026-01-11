@@ -6,4 +6,4 @@
 | Condição de entrada | O ator estar na tela de login do SIGAE. |
 | Fluxo principal     | 1. O ator acessa a tela de login (contexto do caso de uso Realizar Login). <br> 2. O ator identifica que não possui ou esqueceu suas credenciais. <br> 3. O ator clica no link/botão "Esqueci minha senha". <br> 4. O sistema abre uma nova aba no navegador direcionando para a URL de recuperação de senha do SUAP (sistema externo). <br> 5. O caso de uso se encerra no SIGAE (o processo continua inteiramente no ambiente do SUAP).|
 | Fluxos alternativos | **Não se aplica** (O processo é um redirecionamento simples).|
-| Fluxos de Exceção   |  **E1 - Link Externo Quebrado** <br> 1. O sistema tenta redirecionar, mas a página do SUAP está fora do ar (erro 404 ou 500). <br> 2. O sistema exibe um aviso: "O serviço de recuperação de senha do SUAP está inacessível no momento. | 
+| Fluxos de Exceção   |  **E1 - Link Externo Quebrado** <br> 1. O sistema tenta redirecionar, mas a página do SUAP está fora do ar (erro 404 ou 500). <br> 2. O sistema apresenta a mensagem de erro [MSG03]. | 
