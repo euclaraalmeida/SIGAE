@@ -119,6 +119,9 @@ Os requisitos funcionais são descritos a seguir.
 
 - [RF008] - Como sistema, eu gostaria de poder negar ou aceitar solicitações de agendamento feitas por usuários dentro dos horários disponíveis.
   
+-  [RF019] - Como aluno, eu gostaria de receber uma notificação por e-mail sobre alteração ou cancelamento. (ex: "Horário cancelado", “horário alterado”) e também sobre alteração ou cancelamento.
+
+  
 
 
 
@@ -144,14 +147,12 @@ Os requisitos funcionais são descritos a seguir.
 
 - [RF017] - Como Administrador CEF, eu gostaria de aceitar ou negar solicitações de alteração de horário dos alunos, conforme as regras do sistema, se apresentadas justificativas válidas.
 
-- [RF018] - Como aluno, eu gostaria de poder solicitar a alteração de horário ou do espaço esportivo presentes no meu agendamento com antecedência mínima de 24 horas, conforme as regras do sistema, apresentando justificativa válida. 
+- [RF018] - Como aluno, eu gostaria de poder solicitar a alteração de horário ou do espaço esportivo, indicando para qual data e horário desejo mudar ou espaço. Com antecedência mínima de 24 horas, conforme as regras do sistema, apresentando justificativa válida e informando o futuro horario. 
 
 
-### Módulo de Notificações
 
-- [RF019] - Como aluno, eu gostaria de receber uma notificação por e-mail sobre alteração ou cancelamento. (ex: "Horário cancelado", “horário alterado”) e também sobre alteração ou cancelamento.
 
-Módulo de Relatórios e Auditoria (Dashboard)
+### Módulo de Relatórios e Auditoria (Dashboard)
 
 - [RF020] - Como Administrador CEF, eu gostaria de gerar relatórios semanais e mensais sobre a utilização dos espaços esportivos, a fim de realizar análises de uso.
 
