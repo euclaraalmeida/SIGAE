@@ -119,7 +119,6 @@ Os requisitos funcionais são descritos a seguir.
 
 - [RF008] - Como sistema, eu gostaria de poder negar ou aceitar solicitações de agendamento feitas por usuários dentro dos horários disponíveis.
   
--  [RF019] - Como aluno, eu gostaria de receber uma notificação por e-mail sobre alteração ou cancelamento. (ex: "Horário cancelado", “horário alterado”) e também sobre alteração ou cancelamento.
 
   
 
@@ -151,7 +150,8 @@ Os requisitos funcionais são descritos a seguir.
 
 
 
-### Módulo de Relatórios e Auditoria (Dashboard)
+### Módulo de  Notificações, Relatórios e Auditoria (Dashboard)
+-  [RF019] - Como aluno, eu gostaria de receber uma notificação por e-mail sobre alteração ou cancelamento. (ex: "Horário cancelado", “horário alterado”) e também sobre alteração ou cancelamento.
 
 - [RF020] - Como Administrador CEF, eu gostaria de gerar relatórios semanais e mensais sobre a utilização dos espaços esportivos, a fim de realizar análises de uso.
 
