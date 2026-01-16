@@ -138,8 +138,7 @@ Os requisitos funcionais são descritos a seguir.
 
 - [RF013] - Como Administrador CEF, eu gostaria de aplicar flags em todos os horários agendados, sendo elas: aula curricular, projeto de ensino de professores com equipes oficiais do IFPB, aluno do ensino superior e pessoa externa (como federação esportiva).
 
-- [RF014] - Como Administrador CEF, eu gostaria de excluir horários agendados, independentemente da flag, mediante justificativa válida apresentada pelo usuário responsável pelo agendamento.
-
+- [RF014] - Como Administrador CEF, eu gostaria de excluir horários agendados, independentemente da flag, mediante justificativa.
 
 - [RF015] - Como Administrador DCE, eu gostaria de excluir horários agendados, exceto aqueles com a flag “aula curricular”, mediante justificativa válida apresentada pelo usuário responsável pelo agendamento.
 
