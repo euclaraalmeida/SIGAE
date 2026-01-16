@@ -117,7 +117,7 @@ Os requisitos funcionais são descritos a seguir.
 
 - [RF007] - Como aluno, eu gostaria de poder  submeter um agendamento em um espaço esportivo do campus dentro de um horário previamente identificado como "Disponível".
 
-- [RF008] - Como sistema, eu gostaria de poder negar ou aceitar solicitações de agendamento feitas por usuários.
+- [RF008] - Como sistema, eu gostaria de poder negar ou aceitar solicitações de agendamento feitas por usuários dentro dos horários disponíveis.
 
 ### Módulo de Moderação (Painel de Gestão)
 
