@@ -107,17 +107,20 @@ Os requisitos funcionais são descritos a seguir.
 
 - [RF004] - Como Administrador CEF, eu gostaria de manter usuário.
 
-### Módulo de Calendário e Consulta
+
+
+### Módulo de Solicitação de Agendamento
 
 - [RF005] - Como usuário, eu gostaria de visualizar os horários disponíveis dos espaços esportivos do meu campus, identificando-os claramente como: "Disponível" ou "Indisponível" (agendamentos já confirmados), entre os horários possíveis (7h às 22h).
 
 - [RF006] - O sistema deve permitir a visualização do calendário de horários (RF005) publicamente, sem a necessidade de autenticação
 
-### Módulo de Solicitação de Agendamento
-
 - [RF007] - Como aluno, eu gostaria de poder  submeter um agendamento em um espaço esportivo do campus dentro de um horário previamente identificado como "Disponível".
 
 - [RF008] - Como sistema, eu gostaria de poder negar ou aceitar solicitações de agendamento feitas por usuários dentro dos horários disponíveis.
+  
+
+
 
 ### Módulo de Moderação (Painel de Gestão)
 
