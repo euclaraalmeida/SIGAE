@@ -13,7 +13,7 @@
 
 | ID | Tipo | Texto da Mensagem | 
 | :--- | :--- | :--- 
-| **MSG05** | Sucesso | "Solicitação de agendamento realizada com sucesso! Aguarde a aprovação." | 
+| **MSG05** | Sucesso | "Solicitação de agendamento realizada com sucesso! " | 
 | **MSG06** | Erro | "Este horário já está ocupado. Por favor, selecione outro horário." |
 | **MSG07** | Erro | "Não é permitido alterar ou cancelar com menos de 24 horas de antecedência. Contate o DCE presencialmente em casos de emergência." |
 | **MSG08** | Sucesso | "Solicitação de cancelamento enviada para análise." | 
